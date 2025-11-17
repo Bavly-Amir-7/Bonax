@@ -6,7 +6,7 @@ const Cart = () => (
   <>
       <CartSection1 />
       <CartSection2 />
-      <CartSection3 />
+      {/* <CartSection3 /> */}
   </>
 );
 
