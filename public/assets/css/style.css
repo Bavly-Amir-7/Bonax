@@ -1245,10 +1245,10 @@ textarea.form-control {
   height: 100%;
 }
 .banner-section.bg-1 {
-  background-image: url(../../assets/images/banner/banner-bg-1.jpg);
+  background-image: url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&h=600&fit=crop);
 }
 .banner-section.bg-2 {
-  background-image: url(../../assets/images/banner/banner-bg-2.jpg);
+  background-image: url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&h=600&fit=crop);
   padding-top: 280px;
   padding-bottom: 235px;
 }
@@ -1256,7 +1256,7 @@ textarea.form-control {
   background-color: rgba(2, 1, 1, 0.6);
 }
 .banner-section.bg-3 {
-  background-image: url(../../assets/images/banner/banner-bg-3.jpg);
+  background-image: url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&h=600&fit=crop);
   padding-top: 280px;
   padding-bottom: 235px;
 }
@@ -1576,7 +1576,7 @@ textarea.form-control {
   z-index: -1;
 }
 .services-section.bg-2 {
-  background-image: url(../../assets/images/services-bg.jpg);
+  background-image: url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&h=600&fit=crop);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1771,7 +1771,7 @@ textarea.form-control {
   background-size: cover;
 }
 .team-section.bg-1 {
-  background-image: url(../../assets/images/team/team-bg.jpg);
+  background-image: url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1600&h=600&fit=crop);
 }
 
 .main-team-item {
@@ -1861,7 +1861,7 @@ textarea.form-control {
 22 - Testimonial Style
 <<<<======================================================>>>>*/
 .testimonial-section {
-  background-image: url(../../assets/images/testimonial/testimonial-bg.png);
+  background-image: url(https://images.unsplash.com/photo-1553531088-e4c0ce40d4f0?w=1600&h=600&fit=crop);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1922,7 +1922,7 @@ textarea.form-control {
 23 - Video Style
 <<<<======================================================>>>>*/
 .video-section {
-  background-image: url(../../assets/images/video-bg.jpg);
+  background-image: url(https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?w=1600&h=600&fit=crop);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2011,7 +2011,7 @@ textarea.form-control {
 <<<<======================================================>>>>*/
 .footer-section {
   background-color: #150f03;
-  background-image: url(../../assets/images/footer-bg.jpg);
+  background-image: url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&h=600&fit=crop);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2120,7 +2120,7 @@ textarea.form-control {
 26 - FAQ Style
 <<<<======================================================>>>>*/
 .faq-section {
-  background-image: url(../../assets/images/faq-bg.jpg);
+  background-image: url(https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=1600&h=600&fit=crop);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2231,7 +2231,7 @@ textarea.form-control {
 27 - Counter Style
 <<<<======================================================>>>>*/
 .counter-wrap {
-  background-image: url(../../assets/images/counter-bg.jpg);
+  background-image: url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&h=600&fit=crop);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2298,7 +2298,7 @@ textarea.form-control {
 }
 
 .solution-bg-img {
-  background-image: url(../../assets/images/solution-img.jpg);
+  background-image: url(https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&h=600&fit=crop);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2329,25 +2329,25 @@ textarea.form-control {
   z-index: -1;
 }
 .page-banner-section.bg-1 {
-  background-image: url(../images/page-bg/page-bg-1.jpg);
+  background-image: url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&h=600&fit=crop);
 }
 .page-banner-section.bg-2 {
-  background-image: url(../images/page-bg/page-bg-2.jpg);
+  background-image: url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1600&h=600&fit=crop);
 }
 .page-banner-section.bg-3 {
-  background-image: url(../images/page-bg/page-bg-3.jpg);
+  background-image: url(https://images.unsplash.com/photo-1553531088-e4c0ce40d4f0?w=1600&h=600&fit=crop);
 }
 .page-banner-section.bg-4 {
-  background-image: url(../images/page-bg/page-bg-4.jpg);
+  background-image: url(https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?w=1600&h=600&fit=crop);
 }
 .page-banner-section.bg-5 {
-  background-image: url(../images/page-bg/page-bg-5.jpg);
+  background-image: url(https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=1600&h=600&fit=crop);
 }
 .page-banner-section.bg-6 {
-  background-image: url(../images/page-bg/page-bg-6.jpg);
+  background-image: url(https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1600&h=600&fit=crop);
 }
 .page-banner-section.bg-7 {
-  background-image: url(../images/page-bg/page-bg-7.jpg);
+  background-image: url(https://images.unsplash.com/photo-1516321318423-f06f70d504f0?w=1600&h=600&fit=crop);
 }
 
 .page-banner-content {
@@ -2466,7 +2466,7 @@ textarea.form-control {
 }
 
 .project-details-img {
-  background-image: url(../../assets/images/projects/projects-1.jpg);
+  background-image: url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2538,7 +2538,7 @@ textarea.form-control {
   margin-bottom: 50px;
 }
 .blog-details-content .blog-details-img {
-  background-image: url(../../assets/images/blog/blog-5.jpg);
+  background-image: url(https://images.unsplash.com/photo-1516321318423-f06f70d504f0?w=800&h=600&fit=crop);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3655,7 +3655,7 @@ textarea.form-control {
 40 - Coming Soon Style
 <<<<======================================================>>>>*/
 .coming-soon-area {
-  background-image: url(../../assets/images/coming-soon-bg.jpg);
+  background-image: url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&h=800&fit=crop);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3823,7 +3823,7 @@ textarea.form-control {
 33 - Sign In And Sign Up Style
 <<<<======================================================>>>>*/
 .sign-up-img {
-  background-image: url(../../assets/images/sign-up-img.jpg);
+  background-image: url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=600&fit=crop);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3831,7 +3831,7 @@ textarea.form-control {
   border-radius: 10px 0 0 10px;
 }
 .sign-up-img.bg-2 {
-  background-image: url(../../assets/images/sign-in-img.jpg);
+  background-image: url(https://images.unsplash.com/photo-1516321318423-f06f70d504f0?w=600&h=600&fit=crop);
 }
 
 .sign-up-form {
