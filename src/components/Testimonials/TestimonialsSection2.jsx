@@ -9,7 +9,7 @@ const TestimonialsSection2 = () => (
   <div className="row">
   <div className="col-lg-6 col-md-6">
   <div className="main-testimonial-item style-box">
-  <img src="assets/images/testimonial/testimonial-1.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&h=120&fit=crop" alt="Image" />
   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less this fsat normal distribution of to using 'Content here,</p>
   <h3>Juhon Dew</h3>
   <span>Founder</span>
@@ -34,7 +34,7 @@ const TestimonialsSection2 = () => (
   </div>
   <div className="col-lg-6 col-md-6">
   <div className="main-testimonial-item style-box">
-  <img src="assets/images/testimonial/testimonial-2.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1502685457733-3b37ad9d18d0?w=120&h=120&fit=crop" alt="Image" />
   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less this fsat normal distribution of to using 'Content here,</p>
   <h3>Adam Dew</h3>
   <span>Founder</span>
@@ -59,7 +59,7 @@ const TestimonialsSection2 = () => (
   </div>
   <div className="col-lg-6 col-md-6">
   <div className="main-testimonial-item style-box">
-  <img src="assets/images/testimonial/testimonial-3.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&h=120&fit=crop" alt="Image" />
   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less this fsat normal distribution of to using 'Content here,</p>
   <h3>Juhon Dew</h3>
   <span>Founder</span>
@@ -84,7 +84,7 @@ const TestimonialsSection2 = () => (
   </div>
   <div className="col-lg-6 col-md-6">
   <div className="main-testimonial-item style-box">
-  <img src="assets/images/testimonial/testimonial-4.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=120&h=120&fit=crop" alt="Image" />
   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less this fsat normal distribution of to using 'Content here,</p>
   <h3>Adam Dew</h3>
   <span>Founder</span>
@@ -109,7 +109,7 @@ const TestimonialsSection2 = () => (
   </div>
   <div className="col-lg-6 col-md-6">
   <div className="main-testimonial-item style-box">
-  <img src="assets/images/testimonial/testimonial-5.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&h=120&fit=crop" alt="Image" />
   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less this fsat normal distribution of to using 'Content here,</p>
   <h3>Juhon Dew</h3>
   <span>Founder</span>
@@ -134,7 +134,7 @@ const TestimonialsSection2 = () => (
   </div>
   <div className="col-lg-6 col-md-6">
   <div className="main-testimonial-item style-box">
-  <img src="assets/images/testimonial/testimonial-6.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&h=120&fit=crop" alt="Image" />
   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less this fsat normal distribution of to using 'Content here,</p>
   <h3>Adam Dew</h3>
   <span>Founder</span>

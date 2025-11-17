@@ -5,7 +5,7 @@ const TeamDetailsSection2 = () => (
   <div className="row">
   <div className="col-lg-4">
   <div className="team-details-img">
-  <img src="assets/images/team/tean-5.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop" alt="Image" />
   </div>
   </div>
   <div className="col-lg-8">

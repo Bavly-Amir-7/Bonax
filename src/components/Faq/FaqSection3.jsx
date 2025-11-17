@@ -74,7 +74,7 @@ const FaqSection3 = () => (
   </div>
   <div className="col-lg-6">
   <div className="faq-img">
-  <img src="assets/images/faq-img.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=400&fit=crop" alt="Image" />
   </div>
   </div>
   </div>

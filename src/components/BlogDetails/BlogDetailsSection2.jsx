@@ -5,7 +5,7 @@ const BlogDetailsSection2 = () => (
   <div className="row">
   <div className="col-lg-8">
   <div className="blog-details-content">
-  <img src="assets/images/blog/blog-6.jpg" className="blog-details-main-img" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1516321318423-f06f70d504f0?w=800&h=500&fit=crop" className="blog-details-main-img" alt="Image" />
   <ul>
   <li>
   <i className="icofont-user-alt-3"></i>
@@ -97,13 +97,13 @@ const BlogDetailsSection2 = () => (
   <h3>Comment (2)</h3>
   <ul>
   <li>
-  <img src="assets/images/blog/comment-1.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&h=80&fit=crop" alt="Image" />
   <h4>Alex Dew</h4>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum accusantium aperiam maiores nam nobis blanditiis dolorem aut totam praesentium officiis sapiente, provident</p>
   <p>November 16, 2018 at 4:31 am <a href="blog-details.html">Reply</a></p>
   </li>
   <li className="replay">
-  <img src="assets/images/blog/comment-2.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop" alt="Image" />
   <h4>Juhon Dew</h4>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum accusantium aperiam maiores nam nobis blanditiis dolorem aut totam praesentium officiis sapiente, provident sit amet consectetur adipisicing</p>
   <p>November 16, 2018 at 4:31 am <a href="blog-details.html">Reply</a></p>
@@ -162,7 +162,7 @@ const BlogDetailsSection2 = () => (
   </form>
   </div>
   <div className="about-us-img">
-  <img src="assets/images/about-img.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=400&fit=crop" alt="Image" />
   <div className="experience">
   <div className="experience-bg">
   <span>37+ Experience</span>
@@ -227,7 +227,7 @@ const BlogDetailsSection2 = () => (
   </form>
   </div>
   <div className="callneder">
-  <img src="assets/images/calendar.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=400&h=400&fit=crop" alt="Image" />
   </div>
   </div>
   </div>

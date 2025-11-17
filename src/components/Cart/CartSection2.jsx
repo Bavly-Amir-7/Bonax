@@ -20,7 +20,7 @@ const CartSection2 = () => (
   <tr>
   <td className="cart-thumbnail d-flex flex-row align-items-center">
   <a href="product-details.html">
-  <img src="assets/images/products/product-1.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop" alt="Image" />
   </a>
   <div className="ms-4">
   <a href="product-details.html">Wheel Bearing Retainer</a>
@@ -55,7 +55,7 @@ const CartSection2 = () => (
   <tr>
   <td className="cart-thumbnail d-flex flex-row align-items-center">
   <a href="product-details.html">
-  <img src="assets/images/products/product-2.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop" alt="Image" />
   </a>
   <div className="ms-4">
   <a href="product-details.html">Brake Conversion Kit</a>
@@ -89,7 +89,7 @@ const CartSection2 = () => (
   <tr>
   <td className="cart-thumbnail d-flex flex-row align-items-center">
   <a href="product-details.html">
-  <img src="assets/images/products/product-3.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop" alt="Image" />
   </a>
   <div className="ms-4">
   <a href="product-details.html">Shock Mount Insulator</a>
@@ -124,7 +124,7 @@ const CartSection2 = () => (
   <tr>
   <td className="cart-thumbnail d-flex flex-row align-items-center">
   <a href="product-details.html">
-  <img src="assets/images/products/product-4.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop" alt="Image" />
   </a>
   <div className="ms-4">
   <a href="product-details.html">Tail Light Lens</a>
@@ -159,7 +159,7 @@ const CartSection2 = () => (
   <tr>
   <td className="cart-thumbnail d-flex flex-row align-items-center">
   <a href="product-details.html">
-  <img src="assets/images/products/product-5.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop" alt="Image" />
   </a>
   <div className="ms-4">
   <a href="product-details.html">Coil Spring Conversion Kit</a>

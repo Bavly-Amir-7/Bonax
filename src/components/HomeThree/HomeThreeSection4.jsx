@@ -19,7 +19,7 @@ const HomeThreeSection4 = () => (
   <div className="col-lg-4 col-md-6">
   <div className="main-projects-item wow fadeInUp delay-0-2s">
   <a href="project-details.html" className="projects-img">
-  <img src="assets/images/projects/projects-1.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=400&fit=crop" alt="Image" />
   </a>
   <div className="project-content hover-style">
   <div className="inner-border">
@@ -34,7 +34,7 @@ const HomeThreeSection4 = () => (
   <div className="col-lg-4 col-md-6">
   <div className="main-projects-item wow fadeInUp delay-0-4s">
   <a href="project-details.html" className="projects-img">
-  <img src="assets/images/projects/projects-2.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=400&fit=crop" alt="Image" />
   </a>
   <div className="project-content hover-style">
   <div className="inner-border">
@@ -49,7 +49,7 @@ const HomeThreeSection4 = () => (
   <div className="col-lg-4 col-md-6">
   <div className="main-projects-item wow fadeInUp delay-0-6s">
   <a href="project-details.html" className="projects-img">
-  <img src="assets/images/projects/projects-3.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=400&fit=crop" alt="Image" />
   </a>
   <div className="project-content hover-style">
   <div className="inner-border">
@@ -64,7 +64,7 @@ const HomeThreeSection4 = () => (
   <div className="col-lg-4 col-md-6">
   <div className="main-projects-item wow fadeInUp delay-0-2s">
   <a href="project-details.html" className="projects-img">
-  <img src="assets/images/projects/projects-4.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=400&fit=crop" alt="Image" />
   </a>
   <div className="project-content hover-style">
   <div className="inner-border">
@@ -79,7 +79,7 @@ const HomeThreeSection4 = () => (
   <div className="col-lg-4 col-md-6">
   <div className="main-projects-item wow fadeInUp delay-0-4s">
   <a href="project-details.html" className="projects-img">
-  <img src="assets/images/projects/projects-5.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=400&fit=crop" alt="Image" />
   </a>
   <div className="project-content hover-style">
   <div className="inner-border">
@@ -94,7 +94,7 @@ const HomeThreeSection4 = () => (
   <div className="col-lg-4 col-md-6">
   <div className="main-projects-item wow fadeInUp delay-0-6s">
   <a href="project-details.html" className="projects-img">
-  <img src="assets/images/projects/projects-6.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=400&fit=crop" alt="Image" />
   </a>
   <div className="project-content hover-style">
   <div className="inner-border">

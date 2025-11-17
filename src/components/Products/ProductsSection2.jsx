@@ -34,7 +34,7 @@ const ProductsSection2 = () => (
   <div className="main-product-item">
   <div className="product-img">
   <a href="product-details.html">
-  <img src="assets/images/products/product-1.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop" alt="Image" />
   </a>
   <ul>
   <li>
@@ -86,7 +86,7 @@ const ProductsSection2 = () => (
   <div className="main-product-item">
   <div className="product-img">
   <a href="product-details.html">
-  <img src="assets/images/products/product-2.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop" alt="Image" />
   </a>
   <ul>
   <li>
@@ -138,7 +138,7 @@ const ProductsSection2 = () => (
   <div className="main-product-item">
   <div className="product-img">
   <a href="product-details.html">
-  <img src="assets/images/products/product-3.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop" alt="Image" />
   </a>
   <ul>
   <li>
@@ -190,7 +190,7 @@ const ProductsSection2 = () => (
   <div className="main-product-item">
   <div className="product-img">
   <a href="product-details.html">
-  <img src="assets/images/products/product-4.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop" alt="Image" />
   </a>
   <ul>
   <li>
@@ -242,7 +242,7 @@ const ProductsSection2 = () => (
   <div className="main-product-item">
   <div className="product-img">
   <a href="product-details.html">
-  <img src="assets/images/products/product-5.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop" alt="Image" />
   </a>
   <ul>
   <li>
@@ -294,7 +294,7 @@ const ProductsSection2 = () => (
   <div className="main-product-item">
   <div className="product-img">
   <a href="product-details.html">
-  <img src="assets/images/products/product-6.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop" alt="Image" />
   </a>
   <ul>
   <li>
@@ -346,7 +346,7 @@ const ProductsSection2 = () => (
   <div className="main-product-item">
   <div className="product-img">
   <a href="product-details.html">
-  <img src="assets/images/products/product-7.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop" alt="Image" />
   </a>
   <ul>
   <li>
@@ -398,7 +398,7 @@ const ProductsSection2 = () => (
   <div className="main-product-item">
   <div className="product-img">
   <a href="product-details.html">
-  <img src="assets/images/products/product-8.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop" alt="Image" />
   </a>
   <ul>
   <li>
@@ -450,7 +450,7 @@ const ProductsSection2 = () => (
   <div className="main-product-item">
   <div className="product-img">
   <a href="product-details.html">
-  <img src="assets/images/products/product-9.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop" alt="Image" />
   </a>
   <ul>
   <li>

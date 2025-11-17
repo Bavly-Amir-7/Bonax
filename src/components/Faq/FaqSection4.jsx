@@ -17,7 +17,7 @@ const FaqSection4 = () => (
   </div>
   <div className="testimonial-slider owl-carousel owl-theme">
   <div className="main-testimonial-item">
-  <img src="assets/images/testimonial/testimonial-1.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop" alt="Image" />
   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less this fsat normal distribution of to using 'Content here,</p>
   <h3>Juhon Dew</h3>
   <span>Founder</span>
@@ -40,7 +40,7 @@ const FaqSection4 = () => (
   </ul>
   </div>
   <div className="main-testimonial-item">
-  <img src="assets/images/testimonial/testimonial-2.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1502685457733-3b37ad9d18d0?w=100&h=100&fit=crop" alt="Image" />
   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less this fsat normal distribution of to using 'Content here,</p>
   <h3>Adam Dew</h3>
   <span>Founder</span>

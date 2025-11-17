@@ -19,7 +19,7 @@ const HomeOneSection6 = () => (
   <div className="col-lg-4 col-md-6">
   <div className="main-team-item fadeInUp delay-0-2s">
   <a href="team-details.html" className="team-img">
-  <img src="assets/images/team/tean-1.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop" alt="Image" />
   </a>
   <div className="team-content hover-style wow">
   <div className="inner-border">
@@ -61,7 +61,7 @@ const HomeOneSection6 = () => (
   <div className="col-lg-4 col-md-6">
   <div className="main-team-item wow fadeInUp delay-0-4s">
   <a href="team-details.html" className="team-img">
-  <img src="assets/images/team/tean-2.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop" alt="Image" />
   </a>
   <div className="team-content hover-style">
   <div className="inner-border">
@@ -103,7 +103,7 @@ const HomeOneSection6 = () => (
   <div className="col-lg-4 col-md-6">
   <div className="main-team-item hover-style wow fadeInUp delay-0-6s">
   <a href="team-details.html" className="team-img">
-  <img src="assets/images/team/tean-3.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop" alt="Image" />
   </a>
   <div className="team-content hover-style">
   <div className="inner-border">

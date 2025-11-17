@@ -19,7 +19,7 @@ const HomeSection10 = () => (
   <div className="col-lg-4 col-md-6">
   <div className="main-blog-item wow fadeInUp delay-0-2s">
   <a href="blog-details.html" className="blog-img">
-  <img src="assets/images/blog/blog-1.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1516321318423-f06f70d504f0?w=400&h=300&fit=crop" alt="Image" />
   </a>
   <div className="blog-content hover-style">
   <div className="inner-border">
@@ -44,7 +44,7 @@ const HomeSection10 = () => (
   <div className="col-lg-4 col-md-6">
   <div className="main-blog-item wow fadeInUp delay-0-4s">
   <a href="blog-details.html" className="blog-img">
-  <img src="assets/images/blog/blog-2.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=300&fit=crop" alt="Image" />
   </a>
   <div className="blog-content hover-style">
   <div className="inner-border">
@@ -69,7 +69,7 @@ const HomeSection10 = () => (
   <div className="col-lg-4 col-md-6">
   <div className="main-blog-item wow fadeInUp delay-0-6s">
   <a href="blog-details.html" className="blog-img">
-  <img src="assets/images/blog/blog-3.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1553531088-e4c0ce40d4f0?w=400&h=300&fit=crop" alt="Image" />
   </a>
   <div className="blog-content hover-style">
   <div className="inner-border">

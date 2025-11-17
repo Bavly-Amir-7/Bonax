@@ -5,7 +5,7 @@ const AboutSection2 = () => (
   <div className="row align-items-center">
   <div className="col-lg-6">
   <div className="about-us-img me-15 wow fadeInLeft delay-0-2s">
-  <img src="assets/images/about-img.jpg" alt="Image" />
+  <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=600&fit=crop" alt="Image" />
   <div className="experience">
   <div className="experience-bg">
   <span>37+ Experience</span>
