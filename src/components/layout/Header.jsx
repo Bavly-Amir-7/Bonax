@@ -25,6 +25,46 @@ const Header = () => {
     document.documentElement.dir = language === 'ar' ? 'rtl' : 'ltr'
   }, [language])
 
+  // Handle mobile dropdown menus
+  useEffect(() => {
+    const handleDropdownClick = (e) => {
+      if (window.innerWidth <= 991) {
+        const target = e.target.closest('.dropdown-toggles')
+        if (target) {
+          e.preventDefault()
+          const parent = target.closest('.nav-item')
+          const subMenu = parent?.querySelector('.sub-menu')
+          
+          if (subMenu) {
+            const isOpen = subMenu.classList.contains('show')
+            
+            // Close all other dropdowns
+            document.querySelectorAll('.sub-menu.show').forEach(menu => {
+              if (menu !== subMenu) {
+                menu.classList.remove('show')
+                menu.closest('.nav-item')?.classList.remove('show')
+              }
+            })
+            
+            // Toggle current dropdown
+            if (isOpen) {
+              subMenu.classList.remove('show')
+              parent?.classList.remove('show')
+            } else {
+              subMenu.classList.add('show')
+              parent?.classList.add('show')
+            }
+          }
+        }
+      }
+    }
+
+    document.addEventListener('click', handleDropdownClick)
+    return () => {
+      document.removeEventListener('click', handleDropdownClick)
+    }
+  }, [])
+
   const changeLang = (lang) => {
     setLanguage(lang)
   }
@@ -39,7 +79,7 @@ const Header = () => {
         <div className="container">
           {/* Logo */}
           <NavLink className="navbar-brand" to="/">
-            <img src="/assets/images/white-logo.png" alt="Logo" />
+            <img src="/assets/images/logo/logo1.png" alt="Logo" />
           </NavLink>
 
           {/* Right (cart + contact + language) للموبايل و الديسكتوب زي التيمبلت */}
@@ -52,8 +92,17 @@ const Header = () => {
 
               <NavLink to="/contact" className="main-btn">
                 <span>
-                  {translate(language, 'nav.contactNow')}
-                  <i className="icofont-arrow-right" />
+                  {language === 'ar' ? (
+                    <>
+                      <i className="icofont-arrow-left" />
+                      {translate(language, 'nav.contactNow')}
+                    </>
+                  ) : (
+                    <>
+                      {translate(language, 'nav.contactNow')}
+                      <i className="icofont-arrow-right" />
+                    </>
+                  )}
                 </span>
               </NavLink>
 
@@ -139,21 +188,17 @@ const Header = () => {
 
                   <li className="nav-item">
                     <a href="#" className="nav-link dropdown-toggles">
-                      {language === 'ar' ? 'المشروعات' : 'Projects'}
+                      {translate(language, 'nav.projects')}
                     </a>
                     <ul className="sub-menu-sub">
                       <li className="nav-item">
                         <NavLink to="/projects" className="nav-link">
-                          {language === 'ar'
-                            ? 'صفحة المشروعات'
-                            : 'Projects Page'}
+                          {translate(language, 'pages.projectsPage')}
                         </NavLink>
                       </li>
                       <li className="nav-item">
                         <NavLink to="/project-details" className="nav-link">
-                          {language === 'ar'
-                            ? 'تفاصيل المشروع'
-                            : 'Project Details Page'}
+                          {translate(language, 'pages.projectDetailsPage')}
                         </NavLink>
                       </li>
                     </ul>
@@ -169,16 +214,12 @@ const Header = () => {
                 <ul className="sub-menu">
                   <li className="nav-item">
                     <NavLink to="/services" className="nav-link">
-                      {language === 'ar'
-                        ? 'صفحة الخدمات'
-                        : 'Services Page'}
+                      {translate(language, 'pages.servicesPage')}
                     </NavLink>
                   </li>
                   <li className="nav-item">
                     <NavLink to="/services-details" className="nav-link">
-                      {language === 'ar'
-                        ? 'تفاصيل الخدمة'
-                        : 'Services Details Page'}
+                      {translate(language, 'pages.servicesDetailsPage')}
                     </NavLink>
                   </li>
                 </ul>
@@ -200,21 +241,17 @@ const Header = () => {
                   {/* Team */}
                   <li className="nav-item">
                     <a href="#" className="nav-link dropdown-toggles">
-                      {language === 'ar' ? 'الفريق' : 'Team'}
+                      {translate(language, 'nav.team')}
                     </a>
                     <ul className="sub-menu-sub">
                       <li className="nav-item">
                         <NavLink to="/team" className="nav-link">
-                          {language === 'ar'
-                            ? 'صفحة الفريق'
-                            : 'Team Page'}
+                          {translate(language, 'pages.teamPage')}
                         </NavLink>
                       </li>
                       <li className="nav-item">
                         <NavLink to="/team-details" className="nav-link">
-                          {language === 'ar'
-                            ? 'تفاصيل عضو الفريق'
-                            : 'Team Details Page'}
+                          {translate(language, 'pages.teamDetailsPage')}
                         </NavLink>
                       </li>
                     </ul>
@@ -228,36 +265,32 @@ const Header = () => {
                     <ul className="sub-menu-sub">
                       <li className="nav-item">
                         <NavLink to="/products" className="nav-link">
-                          {language === 'ar'
-                            ? 'المنتجات'
-                            : 'Products Page'}
+                          {translate(language, 'pages.productsPage')}
                         </NavLink>
                       </li>
                       <li className="nav-item">
                         <NavLink to="/cart" className="nav-link">
-                          {language === 'ar' ? 'سلة الشراء' : 'Cart Page'}
+                          {translate(language, 'pages.cartPage')}
                         </NavLink>
                       </li>
                       <li className="nav-item">
                         <NavLink to="/checkout" className="nav-link">
-                          {language === 'ar' ? 'إتمام الشراء' : 'Checkout Page'}
+                          {translate(language, 'pages.checkoutPage')}
                         </NavLink>
                       </li>
                       <li className="nav-item">
                         <NavLink to="/product-details" className="nav-link">
-                          {language === 'ar'
-                            ? 'تفاصيل المنتج'
-                            : 'Product Details Page'}
+                          {translate(language, 'pages.productDetailsPage')}
                         </NavLink>
                       </li>
                       <li className="nav-item">
                         <NavLink to="/wishlist" className="nav-link">
-                          {language === 'ar' ? 'المفضّلة' : 'Wishlist Page'}
+                          {translate(language, 'pages.wishlistPage')}
                         </NavLink>
                       </li>
                       <li className="nav-item">
                         <NavLink to="/payment" className="nav-link">
-                          {language === 'ar' ? 'الدفع' : 'Payment Page'}
+                          {translate(language, 'pages.paymentPage')}
                         </NavLink>
                       </li>
                     </ul>
@@ -271,16 +304,12 @@ const Header = () => {
                     <ul className="sub-menu-sub">
                       <li className="nav-item">
                         <NavLink to="/sign-in" className="nav-link">
-                          {language === 'ar'
-                            ? 'تسجيل الدخول'
-                            : 'Sign In Page'}
+                          {translate(language, 'pages.signInPage')}
                         </NavLink>
                       </li>
                       <li className="nav-item">
                         <NavLink to="/sign-up" className="nav-link">
-                          {language === 'ar'
-                            ? 'إنشاء حساب'
-                            : 'Sign Up Page'}
+                          {translate(language, 'pages.signUpPage')}
                         </NavLink>
                       </li>
                     </ul>
@@ -294,7 +323,7 @@ const Header = () => {
                   </li>
                   <li className="nav-item">
                     <NavLink to="/testimonials" className="nav-link">
-                      {language === 'ar' ? 'آراء العملاء' : 'Testimonials Page'}
+                      {translate(language, 'pages.testimonialsPage')}
                     </NavLink>
                   </li>
                   <li className="nav-item">
@@ -306,21 +335,17 @@ const Header = () => {
                   </li>
                   <li className="nav-item">
                     <NavLink to="/privacy-policy" className="nav-link">
-                      {language === 'ar'
-                        ? 'سياسة الخصوصية'
-                        : 'Privacy Policy Page'}
+                      {translate(language, 'pages.privacyPolicyPage')}
                     </NavLink>
                   </li>
                   <li className="nav-item">
                     <NavLink to="/coming-soon" className="nav-link">
-                      {language === 'ar'
-                        ? 'قريباً'
-                        : 'Coming Soon Page'}
+                      {translate(language, 'pages.comingSoon')}
                     </NavLink>
                   </li>
                   <li className="nav-item">
                     <NavLink to="/404" className="nav-link">
-                      {language === 'ar' ? 'صفحة 404' : '404 Page'}
+                      {translate(language, 'pages.notFound')}
                     </NavLink>
                   </li>
                 </ul>
@@ -367,8 +392,17 @@ const Header = () => {
 
             <NavLink to="/contact" className="main-btn">
               <span>
-                {translate(language, 'nav.contactNow')}
-                <i className="icofont-arrow-right" />
+                {language === 'ar' ? (
+                  <>
+                    <i className="icofont-arrow-left" />
+                    {translate(language, 'nav.contactNow')}
+                  </>
+                ) : (
+                  <>
+                    {translate(language, 'nav.contactNow')}
+                    <i className="icofont-arrow-right" />
+                  </>
+                )}
               </span>
             </NavLink>
 

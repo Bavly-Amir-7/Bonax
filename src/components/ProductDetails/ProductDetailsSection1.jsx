@@ -1,20 +1,25 @@
-// Auto-generated from product-details.html section 1
-const ProductDetailsSection1 = () => (
-  <section className="page-banner-section bg-6">
-  <div className="container">
-  <div className="page-banner-content">
-  <h2>Product Details</h2>
-  <ul>
-  <li>
-  <a href="index.html">Home</a>
-  </li>
-  <li>
-  							Product Details
-  						</li>
-  </ul>
-  </div>
-  </div>
-  </section>
-);
+import { useLanguage } from '../../context/LanguageContext'
+import { translate } from '../../i18n/translations'
+import { NavLink } from 'react-router-dom'
 
-export default ProductDetailsSection1;
+const ProductDetailsSection1 = () => {
+  const { language } = useLanguage()
+  
+  return (
+    <section className="page-banner-section bg-6">
+      <div className="container">
+        <div className="page-banner-content">
+          <h2>{translate(language, 'pages.productDetailsPage')}</h2>
+          <ul>
+            <li>
+              <NavLink to="/">{translate(language, 'breadcrumb.home')}</NavLink>
+            </li>
+            <li>{translate(language, 'breadcrumb.productDetails')}</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default ProductDetailsSection1

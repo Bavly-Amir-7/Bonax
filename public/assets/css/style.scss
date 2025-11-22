@@ -55,7 +55,7 @@ $heading-font-family: 'Barlow Condensed', sans-serif;
 02 - Variable Style
 <<<<======================================================>>>>*/ 
 $body-color: #4a4c59;
-$main-color: #f55e1a;
+$main-color: #22c55e;
 $heading-color: #1d213e;
 $white-color: #ffffff;
 $black-color: #000000;
@@ -215,7 +215,7 @@ textarea {
 04 - BG Color Style
 <<<<======================================================>>>>*/
 .bg-color-f55e1a {
-	background-color: #f55e1a;
+	background-color: #22c55e;
 }
 .bg-color-150f03 {
 	background-color: #150f03;
@@ -817,6 +817,30 @@ textarea {
 /*
 15 - Navbar Style
 <<<<======================================================>>>>*/ 
+.navbar-brand {
+	img {
+		max-width: 75px;
+		height: auto;
+		object-fit: contain;
+	}
+}
+/* Logo size fix for all places */
+img[src*="logo1.png"],
+img[src*="/logo/logo1.png"] {
+	max-width: 150px !important;
+	height: auto !important;
+	object-fit: contain !important;
+}
+.navbar-brand img[src*="logo1.png"],
+.navbar-brand img[src*="/logo/logo1.png"] {
+	max-width: 75px !important;
+}
+.footer-logo img[src*="logo1.png"],
+.footer-logo img[src*="/logo/logo1.png"],
+.main-footer-item img[src*="logo1.png"],
+.main-footer-item img[src*="/logo/logo1.png"] {
+	max-width: 75px !important;
+}
 .navbar {
 	background-color: $white-color;
 	box-shadow: $box-shadow;
@@ -2136,6 +2160,11 @@ textarea {
 	.footer-logo {
 		margin-bottom: 20px;
 		display: block;
+		img {
+			max-width: 75px;
+			height: auto;
+			object-fit: contain;
+		}
 	}
 	h3 {
 		font-size: 30px;
@@ -2348,6 +2377,9 @@ textarea {
 	}
 	img {
 		border-radius: 50%;
+		width: 100%;
+		height: auto;
+		display: block;
 	}
 }
 
@@ -3449,7 +3481,7 @@ textarea {
 				border: 1px solid #711313;
 			}
 			.orange {
-				border: 1px solid #873a08;
+				border: 1px solid #16a34a;
 			}
 			.yellow {
 				border: 1px solid #816102;
@@ -3493,7 +3525,7 @@ textarea {
 					background: #DB2828;
 				}
 				&.orange {
-					background: #F2711C;
+					background: #22c55e;
 				}
 				&.yellow {
 					background: #FBBD08;
@@ -4114,6 +4146,50 @@ textarea {
 				position: relative;
 				&:hover {
 					background-color: $main-color;
+				}
+			}
+		}
+	}
+}
+
+/* RTL Support for Arabic - Fix spacing between nav items */
+html[dir="rtl"] {
+	.navbar-nav {
+		.nav-item {
+			margin-right: 0 !important;
+			margin-left: 35px !important;
+			
+			&:last-child {
+				margin-left: 0 !important;
+			}
+			
+			.nav-link {
+				&.dropdown-toggles {
+					padding-right: 0 !important;
+					padding-left: 16px !important;
+					
+					&::after {
+						right: auto !important;
+						left: 0 !important;
+					}
+				}
+			}
+			
+			.sub-menu {
+				text-align: right !important;
+				
+				.nav-item {
+					.nav-link {
+						&.dropdown-toggles {
+							padding-right: 15px !important;
+							padding-left: 35px !important;
+							
+							&::after {
+								right: auto !important;
+								left: 15px !important;
+							}
+						}
+					}
 				}
 			}
 		}

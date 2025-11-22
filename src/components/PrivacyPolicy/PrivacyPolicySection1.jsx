@@ -1,20 +1,25 @@
-// Auto-generated from privacy-policy.html section 1
-const PrivacyPolicySection1 = () => (
-  <section className="page-banner-section bg-6">
-  <div className="container">
-  <div className="page-banner-content">
-  <h2>Privacy Policy</h2>
-  <ul>
-  <li>
-  <a href="index.html">Home</a>
-  </li>
-  <li>
-  							Privacy Policy
-  						</li>
-  </ul>
-  </div>
-  </div>
-  </section>
-);
+import { useLanguage } from '../../context/LanguageContext'
+import { translate } from '../../i18n/translations'
+import { NavLink } from 'react-router-dom'
 
-export default PrivacyPolicySection1;
+const PrivacyPolicySection1 = () => {
+  const { language } = useLanguage()
+  
+  return (
+    <section className="page-banner-section bg-6">
+      <div className="container">
+        <div className="page-banner-content">
+          <h2>{translate(language, 'pages.privacyPolicyPage')}</h2>
+          <ul>
+            <li>
+              <NavLink to="/">{translate(language, 'breadcrumb.home')}</NavLink>
+            </li>
+            <li>{translate(language, 'breadcrumb.privacyPolicy')}</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default PrivacyPolicySection1

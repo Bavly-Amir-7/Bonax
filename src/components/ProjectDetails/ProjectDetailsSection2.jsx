@@ -1,40 +1,47 @@
-// Auto-generated from project-details.html section 2
-const ProjectDetailsSection2 = () => (
-  <section className="project-details-section pt-100">
-  <div className="container">
-  <div className="row">
-  <div className="col-lg-4">
-  <div className="project-left-sidebar">
-  <h3>All Projects</h3>
-  <ul>
-  <li>
-  <a href="projects.html">Folat This Clening.</a>
-  </li>
-  <li>
-  <a href="projects.html">Professional Cleaning.</a>
-  </li>
-  <li>
-  <a href="projects.html">Reasonable Service.</a>
-  </li>
-  <li>
-  <a href="projects.html">Embarrassing Clening..</a>
-  </li>
-  <li>
-  <a href="projects.html">Variations Clening.</a>
-  </li>
-  </ul>
-  </div>
-  </div>
-  <div className="col-lg-8">
-  <div className="project-details-img"></div>
-  </div>
-  </div>
-  <div className="project-details-cntent ptb-50">
-  <p>will reenergize your ome and enhance your life. From everyday housekeeping to routine cleanings, our professional this to It uses a dictionary of 2200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Ipsum is therefore always free from repetition, injected humour,sure there isn’t anything embarrassing hidden in the middle of text. reenergize your ome and enhance your life. From everyday housekeeping to routine cleanings, our professional this to It uses a dictionary of 2200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated psum is..</p>
-  <p>will reenergize your ome and enhance your life. From everyday housekeeping to routine cleanings, our professional this to It uses a dictionary of 2200 Latin words, combined with a handful of model sentence structures, members can provide you. members can provide you.</p>
-  </div>
-  </div>
-  </section>
-);
+import { useLanguage } from '../../context/LanguageContext'
+import { translate } from '../../i18n/translations'
+import { NavLink } from 'react-router-dom'
 
-export default ProjectDetailsSection2;
+const ProjectDetailsSection2 = () => {
+  const { language } = useLanguage()
+  
+  return (
+    <section className="project-details-section pt-100">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-4">
+            <div className="project-left-sidebar">
+              <h3>{translate(language, 'blogDetails.allProjects')}</h3>
+              <ul>
+                <li>
+                  <NavLink to="/projects">Folat This Clening.</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/projects">Professional Cleaning.</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/projects">Reasonable Service.</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/projects">Embarrassing Clening..</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/projects">Variations Clening.</NavLink>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-lg-8">
+            <div className="project-details-img"></div>
+          </div>
+        </div>
+        <div className="project-details-cntent ptb-50">
+          <p>{translate(language, 'projects.description')}</p>
+          <p>{translate(language, 'projects.description')}</p>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default ProjectDetailsSection2

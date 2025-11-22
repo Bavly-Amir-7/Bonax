@@ -1,19 +1,22 @@
-// ComingSoonSection1.jsx
-const ComingSoonSection1 = () => (
-  <section className="coming-soon-section pt-120 pb-120">
-    <div className="container">
-      <div className="row justify-content-center text-center">
-        <div className="col-lg-8">
-          <span className="sub-title">Coming Soon</span>
-          <h1 className="title">We are launching our new website</h1>
-          <p>
-            Our construction website is under development. Please stay tuned, we
-            will be online very soon with a fresh new experience.
-          </p>
+import { useLanguage } from '../../context/LanguageContext'
+import { translate } from '../../i18n/translations'
+
+const ComingSoonSection1 = () => {
+  const { language } = useLanguage()
+  
+  return (
+    <section className="coming-soon-section pt-120 pb-120">
+      <div className="container">
+        <div className="row justify-content-center text-center">
+          <div className="col-lg-8">
+            <span className="sub-title">{translate(language, 'pages.comingSoon')}</span>
+            <h1 className="title">{translate(language, 'comingSoon.title')}</h1>
+            <p>{translate(language, 'comingSoon.description')}</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-);
+    </section>
+  )
+}
 
-export default ComingSoonSection1;
+export default ComingSoonSection1

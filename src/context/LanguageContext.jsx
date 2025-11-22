@@ -16,6 +16,16 @@ export const LanguageProvider = ({ children }) => {
     document.documentElement.lang = language === 'ar' ? 'ar' : 'en'
     document.documentElement.dir = language === 'ar' ? 'rtl' : 'ltr'
     localStorage.setItem('bonax-lang', language)
+
+    // تبديل Bootstrap CSS بناءً على اللغة
+    const bootstrapLink = document.querySelector('link[href*="bootstrap"]')
+    if (bootstrapLink) {
+      if (language === 'ar') {
+        bootstrapLink.href = '/assets/css/bootstrap.rtl.min.css'
+      } else {
+        bootstrapLink.href = '/assets/css/bootstrap.min.css'
+      }
+    }
   }, [language])
 
   return (
